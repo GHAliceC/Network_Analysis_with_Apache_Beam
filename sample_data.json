@@ -1,0 +1,53 @@
+{
+  "db_id": "switch-tor-01.us-west-1",
+  "timestamp": 1772438400.0,
+  "is_base_snapshot": false,
+  "commit_id": "c8f9d0a1b2c3",
+  "parent_commit_id": "a1b2c3d4e5f6",
+  "author": "port-health-monitor",
+  "switch_role": "TOR",
+  "tables": {
+    "PORT": [
+      {
+        "port_name": "Ethernet1/1",
+        "port_id": 1,
+        "status": "DOWN",
+        "admin_status": "UP",
+        "speed_gbps": 400,
+        "mtu": 9100,
+        "mac_address": "00:1A:2B:3C:4D:5E",
+        "description": "Uplink to Spine-01",
+        "fec_mode": "RS_544_514",
+        "lanes": [1, 2, 3, 4],
+        "attributes": {
+          "transceiver_vendor": "Finisar",
+          "rx_power_dbm": -12.5
+        }
+      },
+      {
+        "port_name": "Ethernet1/2",
+        "status": "UP"
+      }
+    ],
+    "BINARY_VERSION": {
+      "version": "v2.4.1-sonic",
+      "build_cl": 6849201,
+      "build_timestamp": 1770000000.0,
+      "package_name": "sonic-release-2026.01"
+    },
+    "BGP_NEIGHBOR": [
+      {
+        "neighbor_ip": "10.0.0.2",
+        "peer_asn": 65001,
+        "session_state": "ESTABLISHED",
+        "vrf_name": "default"
+      }
+    ],
+    "CUSTOM_TELEMETRY_TABLE": [
+      {
+        "sensor_id": "temp_sensor_0",
+        "temperature_celsius": 42.5
+      }
+    ]
+  }
+}
