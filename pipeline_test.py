@@ -2,10 +2,10 @@ import apache_beam as beam
 from apache_beam.testing import test_pipeline
 from apache_beam.testing import util as beam_test_util
 
-from google3.experimental.users.zhenyuzhou.beam import pipeline
-from google3.experimental.users.zhenyuzhou.beam import schema
-from google3.testing.pybase import googletest
-from google3.testing.pybase import parameterized
+import pipeline
+import schema
+import googletest
+import parameterized
 
 
 class PipelineTest(parameterized.TestCase):
