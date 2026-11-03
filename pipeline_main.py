@@ -5,7 +5,7 @@ from collections.abc import Sequence
 from absl import app
 from absl import flags
 
-from google3.experimental.users.zhenyuzhou.beam import pipeline
+import pipeline
 
 _INPUT_PATH = flags.DEFINE_string(
     'input_path',
