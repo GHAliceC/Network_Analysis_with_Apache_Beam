@@ -32,7 +32,7 @@ import dataclasses
 import apache_beam as beam
 from apache_beam.options import pipeline_options
 
-from google3.experimental.users.zhenyuzhou.beam import schema
+import schema
 
 
 @dataclasses.dataclass(frozen=True)
